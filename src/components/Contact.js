@@ -30,21 +30,21 @@ const Contact = (props) => (
             <section className="split">
                 <section>
                     <div className="contact-method">
-                        <span className="icon alt fab fa-envelope"></span>
+                        <span className="icon alt fas fa-envelope"></span>
                         <h3>Email</h3>
                         <a href="#">info@elgentos.nl</a>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
-                        <span className="icon alt fab fa-phone"></span>
+                        <span className="icon alt fas fa-phone"></span>
                         <h3>Telefoon</h3>
                         <span><a href="tel:0031507001515">(+31) (0)50 700 15 15</a></span>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
-                        <span className="icon alt fab fa-home"></span>
+                        <span className="icon alt fas fa-home"></span>
                         <h3>Adres</h3>
                         <span>Hereweg 120<br />
                         9725 AK Groningen<br />
