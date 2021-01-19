@@ -4,13 +4,10 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 import Client from "../components/Client";
-import get from "lodash/get";
 
 class ClientClass extends React.Component {
     render() {
         const data = this.props.data.allClientsCsv.edges
-
-        const clients = get(this, 'props.data.allMarkdownRemark.edges')
 
         return (
             <Layout>
