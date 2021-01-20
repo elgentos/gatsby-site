@@ -7,18 +7,10 @@ class Client extends React.Component {
         const data = this.props.client
 
         return (
-            <div className="col-3 teammember">
-                <span className="image fit teammember">
+            <div className="col-3 client">
+                <span className="clients">
                     <Img fluid={data.image.childImageSharp.fluid} />
                 </span>
-                <span>
-                    {data.website && data.website.length > 0 &&
-                        <a href={data.website} target="_blank" class="icon" rel="noopener noreferrer">
-                            {data.name}
-                        </a>
-                    }
-                </span>
-
             </div>
         );
     }
