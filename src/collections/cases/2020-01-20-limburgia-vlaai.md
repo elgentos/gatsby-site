@@ -2,7 +2,7 @@
 type: case
 title:  "Case: Limburgia"
 intro: ""
-image: ../assets/images/cases/limburgia/banner-limburgia.jpg
+image: "../../assets/images/cases/limburgia/banner-limburgia.jpg"
 date:   2020-01-20 10:13:37 +0100
 categories: magento
 permalink: /cases/limburgia/
