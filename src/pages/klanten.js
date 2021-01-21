@@ -12,7 +12,7 @@ class ClientClass extends React.Component {
         return (
             <Layout>
                 <Helmet htmlAttributes={{lang: 'nl'}}>
-                    <title>Team | elgentos ecommerce solutions</title>
+                    <title>Klanten | elgentos ecommerce solutions</title>
                     <meta name="description" content="Klanten" />
                 </Helmet>
 
