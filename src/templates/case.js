@@ -4,7 +4,6 @@ import { graphql } from 'gatsby'
 import get from 'lodash/get'
 
 import Layout from '../components/layout'
-import dutchlabelshop from "../assets/images/cases/dutch-label-shop/custom-labels.jpg";
 
 class CaseTemplate extends React.Component {
     render() {
@@ -26,7 +25,7 @@ class CaseTemplate extends React.Component {
                                 <h1>{post.frontmatter.title}</h1>
                             </header>
                             <div className="box alt">
-                                <span className="image main"><img src={dutchlabelshop} alt="" /></span>
+                                <span className="image main"><img src={post.frontmatter.image} alt="" /></span>
                                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
                             </div>
                         </div>
@@ -52,6 +51,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        image
       }
     }
   }

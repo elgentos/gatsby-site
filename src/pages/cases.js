@@ -4,7 +4,6 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import get from 'lodash/get'
 import BannerLanding from "../components/BannerLanding";
-import dutchlabelshop from "../assets/images/cases/dutch-label-shop/custom-labels.jpg";
 
 class CasesIndex extends React.Component {
     render() {
@@ -32,11 +31,11 @@ class CasesIndex extends React.Component {
                                     {cases.map(({ node }) => {
                                         const title = get(node, 'frontmatter.title') || node.fields.slug
                                         return (
-                                            <div key={node.fields.slug} className="col-6 case">
+                                            <div key={node.fields.slug} className="col-md-2 case">
                                                 <h3>
                                                     <Link style={{ boxShadow: 'none' }} to={node.frontmatter.permalink}>
                                                         {title}
-                                                        <span className="image case-tile"><img src={dutchlabelshop} alt="" /></span>
+                                                        <span className="image case-tile"><img src={node.frontmatter.image} alt="" /></span>
                                                     </Link>
                                                 </h3>
 
@@ -80,6 +79,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             permalink
+            image
           }
         }
       }

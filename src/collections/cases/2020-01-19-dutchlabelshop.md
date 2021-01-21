@@ -2,6 +2,7 @@
 type: case
 title:  "Case: Dutchlabelshop"
 intro: ""
+image: ../assets/images/cases/dutch-label-shop/custom-labels.jpg
 date:   2019-12-01 10:13:37 +0100
 categories: magento
 permalink: /cases/dutch-label-shop/
