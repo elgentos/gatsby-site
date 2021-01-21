@@ -23,7 +23,7 @@ class HomeIndex extends React.Component {
                 >
                 </Helmet>
 
-                <BannerHome title="e-commerce maatwerk oplossingen" content="die we bouwen met Magento 2 backends gecombineerd met Laravel gebaseerde microservices en React frontends" banner={this.props.data.banner}/>
+                <BannerHome title="e-commerce maatwerk oplossingen" content="die we bouwen met Magento 2 backends gecombineerd met Laravel gebaseerde microservices en React componenten" banner={this.props.data.banner}/>
 
                 <div id="main">
                     <section id="one" className="tiles">
