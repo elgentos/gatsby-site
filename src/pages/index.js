@@ -35,7 +35,7 @@ class HomeIndex extends React.Component {
                         {/*<ArticleTile title="Magento 2" content="Waarom overstappen loont" link="/magento2" background={this.props.data.splash22}  />*/}
                         {/*<ArticleTile title="Vacatures" content="Wij zoeken versterking!" link="/vacatures" background={this.props.data.splash22}  />*/}
                         <ArticleTile title="Tech stack" content="Onze favoriete tech om jouw doelen mee te behalen" link="/techstack" background={this.props.data.splash15}  />
-                        <ArticleTile title="Contact" content="Koffie?" link="/contact" background={this.props.data.splashCoffee}  />
+                        <ArticleTile title="Contact" content="Koffie?" link="#contact" background={this.props.data.splashCoffee}  />
                     </section>
                     <FooterCta title="Magento 2 webshops" content="Wil je een magento webshop beginnen of je bestaande magento webshop optimaliseren? elgentos is gespecialiseerd in het begeleiden van het 'denkproces over de webshops', het ontwerpen-, het ontwikkelen en onderhouden van webshops. Mooie, stabiele en goed converterende webshops bouwen, dat is het uitgangspunt van waaruit wij werken. We zijn in 2010 begonnen met webshops bouwen op Magento en dit is sindsdien onze primaire focus gebleven." link="/magento2" cta="Waarom Magento 2?" />
                 </div>
