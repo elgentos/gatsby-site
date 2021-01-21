@@ -13,6 +13,8 @@ tags: magento2 laravel hyva testomgeving
 
 #### van Limburgia Vlaai naar Patisserie Limburgia
 
+![Limburgia](../../assets/images/cases/limburgia/banner-limburgia.jpg)
+
 Limburgia werd in 1901 opgericht en is in 1954 overgenomen door de huidige eigenaar, de familie De Haas. Een trots en prachtig 120 jaar oud familiebedrijf!
 
 Limburgia heeft besloten een naamsverandering te ondergaan van Limburgia Vlaai naar Patisserie Limburgia. Hierbij hoort een update van de huisstijl en een nieuw design voor de webshop. De huisstijl is door een extern bureau ontwikkeld en de redesign van de shop mochten wij voor onze rekening nemen!
@@ -45,19 +47,13 @@ Door Hyvä is de webshop makkelijker te onderhouden en kunnen nieuwe features sn
 
 ## Behaalde resultaten
 
-### Test opstelling
+Lastig bij deze vergelijkingen is altijd de gebruikte testomgeving. In het verleden zijn wij wel eens de fout in gegaan om bij een PWA de computer van de developer te gebruiken & het internet op ons kantoor als benchmark. Maar elke computer en elke internetverbinding is. Op het moment van schrijven kunnen we ook niet de field data gebruiken van Google (die strikt gezien het meest objectief is), want dit is op basis van 28 dagen, en de nieuwe shop staat pas een paard dagen live.
 
-Lastig bij deze vergelijkingen is altijd de gebruikte testomgeving. In het verleden zijn wij wel eens de fout in gegaan om bij een PWA de computer van de developer te gebruiken & het internet op ons kantoor als benchmark. Mijn computer is gemiddeld veel sneller dan die van de gemiddelde gebruiker en wij hebben glasvezel op kantoor, wat uiteraard veel sneller is dan gemiddeld. Dat is dus niet eerlijk. Maar op moment van schrijven kunnen we ook niet de field data gebruiken van Google, want dit is op basis van 28 dagen, en de nieuwe shop staat pas 1 dag live.
-
-Gelukkig heeft Chrome hier een oplossing voor. Je kan de gebruik maken van network & CPU throttling. Voor deze tests hebben we de Network throttling gezet op `Fast 3G`. We gaan er van uit dat een groot gedeelte van de klanten toegang heeft tot 4G of sneller (WiFi), dus zou testen op 3G prima moeten zijn. De CPU van de laptop hebben we op 4x langzamer gezet.
+Gelukkig heeft Chrome hier een oplossing voor. Door gebruik te maken van network & CPU throttling wordt een standaard computer- en internetverbinding gesimuleerd. Voor deze tests hebben we de snelheid van de internetverbinding gezet op `Fast 3G`. We gaan er van uit dat een groot gedeelte van de klanten toegang heeft tot 4G of sneller (WiFi), dus zou testen op 3G prima moeten zijn. De CPU van de laptop hebben we op 4x langzamer gezet dan gemiddeld.
 
 Dan krijgen we op desktop de volgende score:
 
-![Testomgeving Limburgia](../../assets/images/cases/limburgia/image-testomgeving.png)
-
-Op mobile hebben we het volgende resultaat:
-
-![Testomgeving Limburgia Mobiel](../../assets/images/cases/limburgia/image-testomgeving-mobile.png)
+![Lighthouse scores Limburgia](../../assets/images/cases/limburgia/lighthouse.png)
 
 ## Nieuwe functionaliteiten
 
