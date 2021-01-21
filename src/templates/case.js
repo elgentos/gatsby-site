@@ -26,7 +26,7 @@ class CaseTemplate extends React.Component {
                                 <h1>{post.frontmatter.title}</h1>
                             </header>
                             <div className="box alt">
-                                <span className="image main"><Img fluid={post.frontmatter.image.childImageSharp.fluid} alt="" /></span>
+                                {/*<span className="image main"><Img fluid={post.frontmatter.image.childImageSharp.fluid} alt="" /></span>*/}
                                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
                             </div>
                         </div>
