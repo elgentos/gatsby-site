@@ -32,7 +32,7 @@ class CasesIndex extends React.Component {
                                     {cases.map(({ node }) => {
                                         const title = get(node, 'frontmatter.title') || node.fields.slug
                                         return (
-                                            <div key={node.fields.slug} className="col-4">
+                                            <div key={node.fields.slug} className="col-4" style={{ marginBottom: '15px' }}>
                                                 <h3>
                                                     <Link style={{ boxShadow: 'none' }} to={node.frontmatter.permalink}>
                                                         {title}
