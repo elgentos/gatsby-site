@@ -23,7 +23,13 @@ exports.createPages = ({ graphql, actions }) => {
                           }
                           frontmatter {
                             title
-                            image
+                            image {
+                              childImageSharp {
+                                fluid(maxWidth: 150) {
+                                  ...GatsbyImageSharpFluid_withWebp
+                                }
+                              }
+                            }
                             permalink
                             type
                           }
