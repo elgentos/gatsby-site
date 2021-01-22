@@ -17,6 +17,7 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
+    'gatsby-remark-images',
     `gatsby-transformer-csv`,
     {
         resolve: `gatsby-source-filesystem`,

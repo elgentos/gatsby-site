@@ -4,7 +4,7 @@ title:  "MageUnconference 2017 Cologne"
 date:   2017-03-09
 categories: magento
 permalink: /blog/mageunconference-2017-cologne/
-image: /assets/images/blogs/unconference/mageunconference-2017-elgentos-team.jpg
+image: ../../assets/images/blogs/unconference/mageunconference-2017-elgentos-team.jpg
 excerpt: Last weekend (March 3rd - 5th), we attended the MageUnconference in Cologne with the entire team, and boy was it fun!
 author: Peter Jaap Blaakmeer
 ---

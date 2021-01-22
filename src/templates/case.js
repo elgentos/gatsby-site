@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import get from 'lodash/get'
+import Img from "gatsby-image"
 
 import Layout from '../components/layout'
 
@@ -25,7 +26,7 @@ class CaseTemplate extends React.Component {
                                 <h1>{post.frontmatter.title}</h1>
                             </header>
                             <div className="box alt">
-                                <span className="image main"><img src={post.frontmatter.image} alt="" /></span>
+                                {/*<span className="image main"><Img fluid={post.frontmatter.image.childImageSharp.fluid} alt="" /></span>*/}
                                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
                             </div>
                         </div>
@@ -51,7 +52,13 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        image
+        image {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
       }
     }
   }

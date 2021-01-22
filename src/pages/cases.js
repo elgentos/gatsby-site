@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import get from 'lodash/get'
 import BannerLanding from "../components/BannerLanding";
+import Img from "gatsby-image"
 
 class CasesIndex extends React.Component {
     render() {
@@ -31,11 +32,13 @@ class CasesIndex extends React.Component {
                                     {cases.map(({ node }) => {
                                         const title = get(node, 'frontmatter.title') || node.fields.slug
                                         return (
-                                            <div key={node.fields.slug} className="col-md-2 case">
+                                            <div key={node.fields.slug} className="col-4" style={{ marginBottom: '15px' }}>
                                                 <h3>
                                                     <Link style={{ boxShadow: 'none' }} to={node.frontmatter.permalink}>
                                                         {title}
-                                                        <span className="image case-tile"><img src={node.frontmatter.image} alt="" /></span>
+                                                        <div>
+                                                            <Img fluid={node.frontmatter.image.childImageSharp.fluid} alt="" />
+                                                        </div>
                                                     </Link>
                                                 </h3>
 
@@ -79,7 +82,13 @@ export const pageQuery = graphql`
           frontmatter {
             title
             permalink
-            image
+            image {
+              childImageSharp {
+                fluid(maxHeight: 400) {
+                  ...GatsbyImageSharpFluid_withWebp
+                }
+              }
+            }
           }
         }
       }

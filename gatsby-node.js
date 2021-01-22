@@ -23,7 +23,6 @@ exports.createPages = ({ graphql, actions }) => {
                           }
                           frontmatter {
                             title
-                            image
                             permalink
                             type
                           }
