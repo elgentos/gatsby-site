@@ -7,7 +7,7 @@ class Client extends React.Component {
         const data = this.props.client
 
         return (
-            <div className="col-3 teammember">
+            <div className="col-3 client">
                 <span className="image fit">
                     <Img className="client-image" fluid={data.image.childImageSharp.fluid} />
                 </span>

@@ -7,6 +7,15 @@
 
 /* Clients Method */
 
+.client {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.client img {
+  padding: 0px 0px 40px 0px;
+}
+
 .client-image {
   width: 150px;
   filter:  brightness(0) invert(1);
