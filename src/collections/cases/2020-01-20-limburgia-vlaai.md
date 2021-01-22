@@ -47,7 +47,7 @@ Door Hyvä is de webshop makkelijker te onderhouden en kunnen nieuwe features sn
 
 ## Behaalde resultaten
 
-Lastig bij deze vergelijkingen is altijd de gebruikte testomgeving. In het verleden zijn wij wel eens de fout in gegaan om bij een PWA de computer van de developer te gebruiken & het internet op ons kantoor als benchmark. Maar elke computer en elke internetverbinding is. Op het moment van schrijven kunnen we ook niet de field data gebruiken van Google (die strikt gezien het meest objectief is), want dit is op basis van 28 dagen, en de nieuwe shop staat pas een paard dagen live.
+Lastig bij deze vergelijkingen is altijd de gebruikte testomgeving. In het verleden zijn wij wel eens de fout in gegaan om bij een PWA de computer van de developer te gebruiken & het internet op ons kantoor als benchmark. Maar elke computer en elke internetverbinding is anders. Op het moment van schrijven kunnen we ook niet de field data gebruiken van Google (die strikt gezien het meest objectief is), want dit is op basis van 28 dagen, en de nieuwe shop staat pas een paar dagen live.
 
 Gelukkig heeft Chrome hier een oplossing voor. Door gebruik te maken van network & CPU throttling wordt een standaard computer- en internetverbinding gesimuleerd. Voor deze tests hebben we de snelheid van de internetverbinding gezet op `Fast 3G`. We gaan er van uit dat een groot gedeelte van de klanten toegang heeft tot 4G of sneller (WiFi), dus zou testen op 3G prima moeten zijn. De CPU van de laptop hebben we op 4x langzamer gezet dan gemiddeld.
 
