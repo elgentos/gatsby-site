@@ -11,7 +11,7 @@ tags: magento2 laravel hyva testomgeving
 ---
 # Limburgia
 
-#### van Limburgia Vlaai naar Patisserie Limburgia
+#### Van Limburgia Vlaai naar Patisserie Limburgia.
 
 ![Limburgia](../../assets/images/cases/limburgia/banner-limburgia.jpg)
 
@@ -79,11 +79,12 @@ Om de uptime en de snelheid van de shop veliig te stellen, hebben we ervoor geko
 
 ## Geinteresseerd?
 
-Ben je nieuwschrierig geworden naar de mogelijkheden voor je magento 2 shop? Zit je op shopify en wordt begint het te rammelen aan alle kanten? Onze trajecten beginnen vaak als volgt:
+Ben je nieuwschrierig geworden naar de mogelijkheden voor je Magento 2 shop? Zit je op Shopify en wordt begint het te rammelen aan alle kanten? Onze trajecten beginnen vaak als volgt:
 
 1. Kennismaking
 2. Audit van de huidige situatie & code
 3. Schrijven van een kosten raming
 4. Beginnen met ontwikkelen
+5. Supersnelle site hebben!
 
-Je kan ons altijd even bellen op 050 700 15 15 of mailen op wouter@elgentos.nl, peterjaap@elgentos.nl of jeroen@elgentos.nl.
+Je kan ons altijd even bellen op 050 700 15 15 of mailen op [mailto:wouter@elgentos.nl](wouter@elgentos.nl), [mailto:peterjaap@elgentos.nl](peterjaap@elgentos.nl) of [mailto:jeroen@elgentos.nl](jeroen@elgentos.nl).
