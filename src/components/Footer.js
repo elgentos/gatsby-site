@@ -32,15 +32,17 @@ export default () => (
             <footer id="footer">
                 <div className="inner">
                     <ul className="icons">
-                        <li><a href="https://twitter.com/elgentos" className="icon alt fab fa-twitter" alt={'Twitter'}
+                        <li><a href="https://twitter.com/elgentos" rel="noreferrer" className="icon alt fab fa-twitter" alt={'Twitter'}
                                title={'Twitter'} target={'_blank'}><span className="label">Twitter</span></a></li>
-                        <li><a href="https://github.com/elgentos" className="icon alt fab fa-github" alt={'GitHub'}
+                        <li><a href="https://github.com/elgentos" rel="noreferrer" className="icon alt fab fa-github" alt={'GitHub'}
                                title={'GitHub'} target={'_blank'}><span className="label">GitHub</span></a></li>
-                        <li><a href="https://www.linkedin.com/company/elgentos/" className="icon alt fab fa-linkedin"
-                               alt={'LinkedIn'} title={'LinkedIn'} target={'_blank'}><span className="label">LinkedIn</span></a></li>
+                        <li><a href="https://www.linkedin.com/company/elgentos/" rel="noreferrer" className="icon alt fab fa-linkedin"
+                               alt={'LinkedIn'} title={'LinkedIn'} rel="noreferrer" target={'_blank'}><span className="label">LinkedIn</span></a></li>
                         <li>
                             <a href="https://partners.magento.com/portal/details/partner/id/2070/"
-                               alt={'Magento Community Insider Partner'} title={'Magento Community Insider Partner'} target={'_blank'}>
+                               alt={'Magento Community Insider Partner'}
+                               rel="noreferrer"
+                               title={'Magento Community Insider Partner'} target={'_blank'}>
                                 <Img
                                     sizes={data.cip.sizes}
                                     className={'magento-cip-badge'}
@@ -49,7 +51,7 @@ export default () => (
                         </li>
                         <li>
                             <a href="https://www.byte.nl/partners/"
-                               alt={'Hypernode Certified Agency'} title={'Hypernode Certified Agency'} target={'_blank'}>
+                               alt={'Hypernode Certified Agency'} rel="noreferrer" title={'Hypernode Certified Agency'} target={'_blank'}>
                                 <Img
                                     sizes={data.hypernode.sizes}
                                     className={'hypernode-certified-badge'}
@@ -59,12 +61,12 @@ export default () => (
                     </ul>
                     <ul className="copyright" aria-hidden={true}>
                         <li>&copy; elgentos</li>
-                        <li>Built with: <a href="https://gatsbyjs.org" alt="GatsbyJS" title={'GatsbyJS'}>GatsbyJS</a>
+                        <li>Built with: <a href="https://gatsbyjs.org" rel="noreferrer" alt="GatsbyJS" title={'GatsbyJS'}>GatsbyJS</a>
                         </li>
-                        <li><a href="https://www.foundedingroningen.com/" alt="Founded in Groningen"
+                        <li><a href="https://www.foundedingroningen.com/" rel="noreferrer" alt="Founded in Groningen"
                                 title={'Founded in Groningen'}>Founded in Groningen</a></li>
-                        <li><a href="https://medium.com/@sexandstartups/zebrasfix-c467e55f9d96" 
-                                alt="we are a zebra" 
+                        <li><a rel="noreferrer" href="https://medium.com/@sexandstartups/zebrasfix-c467e55f9d96"
+                                alt="we are a zebra"
                                 title="we are a zebra">we are a zebra</a></li>
                     </ul>
                 </div>
