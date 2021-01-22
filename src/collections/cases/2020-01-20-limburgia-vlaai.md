@@ -53,7 +53,11 @@ Gelukkig heeft Chrome hier een oplossing voor. Door gebruik te maken van network
 
 Dan krijgen we op desktop de volgende score:
 
-![Lighthouse scores Limburgia](../../assets/images/cases/limburgia/lighthouse.png)
+![Lighthouse scores Limburgia](../../assets/images/cases/limburgia/lighthouse-desktop.png)
+
+En de volgende score op mobile:
+
+![Lighthouse scores Limburgia](../../assets/images/cases/limburgia/lighthouse-mobile.png)
 
 ## Nieuwe functionaliteiten
 
