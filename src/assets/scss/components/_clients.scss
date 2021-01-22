@@ -7,17 +7,13 @@
 
 /* Clients Method */
 
-.client{
-  margin: auto;
-  text-align: center;
-  padding: 0px 0px 40px 0px;
-}
-
-.client img {
+.client-image {
   width: 150px;
   filter:  brightness(0) invert(1);
-  &:hover {
-    filter: brightness(1) invert(0);
-    transition: 0.125s ease-in-out;
-  }
 }
+
+.client-image:hover {
+  filter: brightness(1) invert(0);
+  transition: 0.125s ease-in-out;
+}
+
