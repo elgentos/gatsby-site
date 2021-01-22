@@ -87,4 +87,4 @@ Ben je nieuwschrierig geworden naar de mogelijkheden voor je Magento 2 shop? Zit
 4. Beginnen met ontwikkelen
 5. Supersnelle site hebben!
 
-Je kan ons altijd even bellen op 050 700 15 15 of mailen op [mailto:wouter@elgentos.nl](wouter@elgentos.nl), [mailto:peterjaap@elgentos.nl](peterjaap@elgentos.nl) of [mailto:jeroen@elgentos.nl](jeroen@elgentos.nl).
+Je kan ons altijd even bellen op 050-7001515 of mailen op [wouter@elgentos.nl](mailto:wouter@elgentos.nl), [peterjaap@elgentos.nl](mailto:peterjaap@elgentos.nl) of [jeroen@elgentos.nl](mailto:jeroen@elgentos.nl).
