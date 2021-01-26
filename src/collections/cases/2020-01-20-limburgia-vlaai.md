@@ -75,7 +75,7 @@ Limburgia levert niet alleen aan consumenten, maar ook aan andere bedrijven door
 
 ## Verhuizing naar Hypernode
 
-Om de uptime en de snelheid van de shop veliig te stellen, hebben we ervoor gekozen om de webshop te verhuizen naar het [Hypernode](https://www.hypernode.com) platform. Wij hosten al vele jaren naar volle tevredenheid al onze klanten bij Hypernode en ook deze verhuizing ging verbazingwekkend soepel.
+Om de uptime en de snelheid van de shop veilig te stellen, hebben we ervoor gekozen om de webshop te verhuizen naar het [Hypernode](https://www.hypernode.com) platform. Wij hosten al vele jaren naar volle tevredenheid al onze klanten bij Hypernode en ook deze verhuizing ging verbazingwekkend soepel.
 
 ## Geinteresseerd?
 
