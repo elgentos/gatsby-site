@@ -2,7 +2,7 @@ id,name,date,job_title,image,twitter,github,linkedin,magento,laravel
 peterjaap,Peter Jaap Blaakmeer,2011-10-01,CTO,../assets/images/teammembers/peterjaap.jpg,PeterJaap,PeterJaap,peterjaap,https://u.magento.com/certification/directory/dev/5547/,https://exam.laravelcert.com/is/peter-jaap-blaakmeer/certified-since/2019-07-09?
 wouter,Wouter Steenmeijer,2012-02-01,Frontend developer,../assets/images/teammembers/wouter.jpg,WouterSteen,WouterSteen,woutersteenmeijer,https://u.magento.com/certification/directory/dev/380263/,
 jeroen,Jeroen Boersma,2016-01-01,Backend developer,../assets/images/teammembers/jeroen.jpg,srcoder,JeroenBoersma,jeroenboersma,https://u.magento.com/certification/directory/dev/418195/,
-sander,Sander Jongsma,2017-01-09,Frontend developer,../assets/images/teammembers/sander.jpg,sanniieb,sanderjongsma,jongsmasander,https://u.magento.com/certification/directory/dev/1502094/,
+sander,Sander Jongsma,2017-01-09,Backend developer,../assets/images/teammembers/sander.jpg,sanniieb,sanderjongsma,jongsmasander,https://u.magento.com/certification/directory/dev/1502094/,
 gideon,Gideon Overeem,2017-12-01,Backend developer,../assets/images/teammembers/gideon.jpg,,govereem,gideon-overeem-b0508226,,
 guido,Guido van de Camp,2018-02-01,Backend developer,../assets/images/teammembers/guido.jpg,vandecampict,guido7171,guidovandecamp,,
 jerke,Jerke Combee,2018-11-01,Laravel developer,../assets/images/teammembers/jerke.jpg,,,jerke-combee,,
@@ -12,3 +12,7 @@ janmarten,Jan-Marten de Boer,2020-01-11,Backend developer,../assets/images/teamm
 arjen,Arjen Miedema,2020-01-12,Ecommerce developer,../assets/images/teammembers/silhouet.jpg,arjenmiedema_nl,arjenmiedema,arjenmiedemanl,https://u.magento.com/certification/directory/dev/9953/,
 wahid,Wahid Nory,2021-01-03,Backend developer,../assets/images/teammembers/wahid.jpg,Wahid1337,wahidnory,wahidnory,,
 peter,Peter Schriever,2021-05-04,Frontend developer,../assets/images/teammembers/peter.jpg,peter_schriever,peterschriever,pschriever,,
+andrew,Andrew Millar,2021-07-01,Backend developer,../assets/images/teammembers/silhouet.jpg,,AndrewRMillar,armillar,,
+anja,Anja Koop,2021-08-01,Planner,../assets/images/teammembers/silhouet.jpg,,,anjakoop,,
+nina,Nina Reijnders,2021-08-01,Frontend developer,../assets/images/teammembers/silhouet.jpg,,NinaAurora,nina-aurora,,
+femke,Femke Petter,2021-08-01,Backend developer,../assets/images/teammembers/silhouet.jpg,,femkepetter,femke-petter,,
