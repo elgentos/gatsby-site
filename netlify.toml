@@ -20,3 +20,7 @@
 [[redirects]]
   from = "/vacatures/magento-frontend-developer/"
   to = "https://career.elgentos.nl/o/magento-2-frontend-developer"
+
+[[redirects]]
+  from = "/av.pdf"
+  to = "https://elgentos.nl/docs/algemene-voorwaarden.pdf"
